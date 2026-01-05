@@ -1,0 +1,19 @@
+[project]
+authors = [{name = "jreusen", email = "25225054+JesseReusen@users.noreply.github.com"}]
+dependencies = []
+name = "restveengebied-soilmm"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.pypi-dependencies]
+restveengebied_soilmm = { path = ".", editable = true }
+
+[tool.pixi.tasks]
