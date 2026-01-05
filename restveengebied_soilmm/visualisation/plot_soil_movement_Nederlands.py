@@ -32,7 +32,7 @@ from restveengebied_soilmm.old_scripts.stats import get_trendline
 # locations = ["HZW"]  # "BKG"]  #
 # locations = ["ALB", "ASD", "ROU", "ZEG", "VLI", "DEM", "LW", "VEG", "ZH"]
 # locations = ["ZEG"]
-locations = ["M4T", "MMW", "MSW"]
+locations = ["M4T"]  # , "MMW", "MSW"]
 # locations = ["MMW"]
 # locations = ["VEG"]
 plot_type = "RF"
@@ -490,9 +490,10 @@ for location in locations:
             "data",
             "5-visualisation",
             location_fullname,
-            f"soil_movement{plot_type}_Nederlands.png",
+            f"soil_movement{plot_type}_Nederlands_test.png",
         ),
         bbox_inches="tight",
         dpi=300,
     )
     # plt.show()
+#
