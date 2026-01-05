@@ -6,7 +6,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import matplotlib.ticker as ticker
 from pathlib import Path
 
-from nobv_soilmm.read import (
+from restveengebied_soilmm.read import (
     read_extensometer,
     read_groundwater,
     read_soilprofile,
@@ -14,14 +14,14 @@ from nobv_soilmm.read import (
     read_middepth_filter,
     read_surface_level,
 )
-from nobv_soilmm.layer_analysis import calculate_layer_thickness
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.layer_analysis import calculate_layer_thickness
+from restveengebied_soilmm.constants import (
     LOCATION_FULLNAMES,
     SOILPROFILE_DEPTHS,
     SOILTYPES_COLORS,
 )
 
-from nobv_soilmm.old_scripts.stats import get_trendline
+from restveengebied_soilmm.old_scripts.stats import get_trendline
 
 #################################################################
 # Parameters

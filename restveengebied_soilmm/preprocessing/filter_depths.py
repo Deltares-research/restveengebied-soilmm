@@ -112,7 +112,7 @@ def write_filter_depths(location, location_fullname, columns, plot_type="RF"):
 
 if __name__ == "__main__":
 
-    from nobv_soilmm.constants import LOCATION_FULLNAMES
+    from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
     # locations = ["ROU09"]  # ["ROU", "VLI", "ZEG"]
     # locations = ["GDA", "BKG", "BKW", "CBW", "HZW"]

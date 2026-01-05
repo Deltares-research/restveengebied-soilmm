@@ -7,7 +7,7 @@ from pathlib import Path
 
 # import cmocean
 
-from nobv_soilmm.read import (
+from restveengebied_soilmm.read import (
     read_extensometer,
     read_soilprofile,
     read_soilprofile_regiodeal,
@@ -16,14 +16,14 @@ from nobv_soilmm.read import (
     read_gwlevel,
     read_filter_depths,
 )
-from nobv_soilmm.layer_analysis import calculate_layer_thickness
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.layer_analysis import calculate_layer_thickness
+from restveengebied_soilmm.constants import (
     LOCATION_FULLNAMES,
     SOILPROFILE_DEPTHS,
     SOILTYPES_COLORS,
 )
 
-from nobv_soilmm.old_scripts.stats import get_trendline
+from restveengebied_soilmm.old_scripts.stats import get_trendline
 
 #################################################################
 # Parameters

@@ -6,9 +6,8 @@ from collections import OrderedDict
 from pathlib import Path
 
 import cmocean
-import seaborn as sns
 
-from nobv_soilmm.read import (
+from restveengebied_soilmm.read import (
     read_extensometer,
     read_soilprofile,
     read_soilprofile_regiodeal,
@@ -17,14 +16,14 @@ from nobv_soilmm.read import (
     read_gwlevel,
     read_filter_depths,
 )
-from nobv_soilmm.layer_analysis import calculate_layer_thickness
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.layer_analysis import calculate_layer_thickness
+from restveengebied_soilmm.constants import (
     LOCATION_FULLNAMES,
     SOILPROFILE_DEPTHS,
     SOILTYPES_COLORS_DUTCH,
 )
 
-from nobv_soilmm.old_scripts.stats import get_trendline
+from restveengebied_soilmm.old_scripts.stats import get_trendline
 
 #################################################################
 # Parameters
@@ -85,7 +84,7 @@ for location in locations:
             )
 
     extensometer_data = read_extensometer(location, plot_type=plot_type)
-    groundwater_data = read_gwlevel(location)
+    groundwater_data = read_gwlevel(location, plot_type=plot_type)
     ditch_level_data = read_ditch_level(location, plot_type=plot_type)
     surface_level = read_surface_level(location, plot_type=plot_type)
 

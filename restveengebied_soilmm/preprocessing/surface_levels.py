@@ -109,7 +109,7 @@ def write_surface_level(location, location_fullname, plot_type="RF"):
 
 if __name__ == "__main__":
 
-    from nobv_soilmm.constants import LOCATION_FULLNAMES
+    from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
     # locations = ["ROU09"]  # ["ROU", "VLI", "ZEG"]
     locations = ["MSW"]

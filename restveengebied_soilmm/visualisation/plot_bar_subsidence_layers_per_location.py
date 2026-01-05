@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from pathlib import Path
 
-from nobv_soilmm.constants import LOCATION_FULLNAMES
+from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
 locations = ["HZW"]
 

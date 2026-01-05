@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib import dates as mdates
 from pathlib import Path
 
-from nobv_soilmm.read import (
+from restveengebied_soilmm.read import (
     read_extensometer,
     read_groundwater,
     read_soilprofile,
@@ -12,18 +12,18 @@ from nobv_soilmm.read import (
     read_middepth_filter,
     read_surface_level,
 )
-from nobv_soilmm.layer_analysis import (
+from restveengebied_soilmm.layer_analysis import (
     calculate_layer_thickness,
     calculate_layer_thickness_start,
     calculate_rek,
 )
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.constants import (
     LOCATION_FULLNAMES,
     SOILPROFILE_DEPTHS,
     SOILTYPES_COLORS,
 )
 
-from nobv_soilmm.old_scripts.stats import get_trendline
+from restveengebied_soilmm.old_scripts.stats import get_trendline
 
 #################################################################
 # Parameters

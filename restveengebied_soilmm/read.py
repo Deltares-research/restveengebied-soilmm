@@ -3,7 +3,7 @@ from pathlib import Path
 from openpyxl import load_workbook
 import numpy as np
 
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.constants import (
     GROUNDWATER_WELLS,
     EXTENSOMETER_DEPTHS,
     SOILTYPES_ENGLISH,
@@ -477,7 +477,7 @@ def read_gwlevel(location, plot_type):
 
 if __name__ == "__main__":
 
-    from nobv_soilmm.constants import LOCATION_FULLNAMES
+    from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
     location = "MMW"
 

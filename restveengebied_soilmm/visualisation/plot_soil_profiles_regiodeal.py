@@ -5,8 +5,8 @@ import matplotlib as mpl
 import matplotlib.patches as mpatches
 from matplotlib.lines import Line2D
 
-from nobv_soilmm.read import read_soilprofile, read_strain, read_soilprofile_regiodeal
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.read import read_soilprofile, read_strain, read_soilprofile_regiodeal
+from restveengebied_soilmm.constants import (
     LOCATION_FULLNAMES,
     SOILPROFILE_DEPTHS,
     SOILTYPES_COLORS_DUTCH,

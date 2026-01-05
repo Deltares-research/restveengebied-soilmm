@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-from nobv_soilmm.constants import LOCATION_FULLNAMES
+from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
 
 def load_column_letters(location_fullname, column="B"):

@@ -8,7 +8,7 @@ import numpy as np
 #     r"n:/Projects/11211000/11211391/B. Measurements and calculations/Bodembeweging/src"
 # )
 
-from nobv_soilmm.constants import LOCATION_FULLNAMES
+from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
 
 def letter_range(start, stop="{", step=1):

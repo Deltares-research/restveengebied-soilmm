@@ -90,8 +90,8 @@ def calculate_rek(layer_thickness, layer_thickness_start):
 
 if __name__ == "__main__":
 
-    from nobv_soilmm.read import read_extensometer, read_soilprofile
-    from nobv_soilmm.constants import LOCATION_FULLNAMES
+    from restveengebied_soilmm.read import read_extensometer, read_soilprofile
+    from restveengebied_soilmm.constants import LOCATION_FULLNAMES
 
     location = "ZEG"
 

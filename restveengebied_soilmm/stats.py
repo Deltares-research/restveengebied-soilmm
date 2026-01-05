@@ -5,7 +5,7 @@ from matplotlib import dates as mdates
 from pathlib import Path
 import scipy
 
-from nobv_soilmm.constants import MONTHS
+from restveengebied_soilmm.constants import MONTHS
 
 
 def calculate_dynamic(extensometer_year, year):
@@ -74,18 +74,18 @@ def get_trendline(extensometer_data, months=(1, 2)):
 
 if __name__ == "__main__":
 
-    from nobv_soilmm.read import (
+    from restveengebied_soilmm.read import (
         read_extensometer,
         read_soilprofile,
         read_soilprofile_regiodeal,
     )
-    from nobv_soilmm.constants import (
+    from restveengebied_soilmm.constants import (
         LOCATION_FULLNAMES,
         EXTENSOMETER_DEPTHS,
         SOILPROFILE_DEPTHS,
     )
 
-    from nobv_soilmm.layer_analysis import (
+    from restveengebied_soilmm.layer_analysis import (
         calculate_layer_thickness,
         calculate_rek,
     )

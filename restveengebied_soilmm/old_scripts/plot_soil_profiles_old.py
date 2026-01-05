@@ -8,8 +8,8 @@ import mpl_toolkits.axisartist as AA
 
 from matplotlib import gridspec
 
-from nobv_soilmm.read import read_soilprofile, read_strain
-from nobv_soilmm.constants import (
+from restveengebied_soilmm.read import read_soilprofile, read_strain
+from restveengebied_soilmm.constants import (
     LOCATION_FULLNAMES,
     SOILPROFILE_DEPTHS,
     SOILTYPES_COLORS,
